@@ -1,0 +1,20 @@
+{
+  "name": "dsh-mcp-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Adapter-oriented manager core for DeepSeek Harness MCP integrations.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}
